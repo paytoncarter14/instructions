@@ -31,7 +31,9 @@ Download the `nf-core-targetassembly` pipeline from GitHub:
 git clone https://github.com/paytoncarter14/nf-core-targetassembly.git
 ```
 
-Install Nextflow and Apptainer with Conda:
+The only dependencies you need to install are Nextflow and Apptainer. The rest of the software will be automatically installed by the pipeline using Apptainer containers.
+
+To use Conda to create an environment with Nextflow and Apptainer:
 
 ```
 conda create -n nextflow-24.10.4 -c conda-forge -c bioconda nextflow=24.10.4 apptainer=1.3.6
