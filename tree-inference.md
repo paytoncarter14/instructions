@@ -1,6 +1,6 @@
 # Prepare fasta directory
 
-Prepare `taxa_list.txt` and `exclude_list.txt` with sample names. One taxa per line. Searches are case-sensitive and based on filenames, so make sure to enclose taxa in underscores to make sure only the taxa you want are included. For example, 'Coenagrion' will match 'Coenagrion' and 'Coenagrionidae', while '\_Coenagrion\_' will only match the genus 'Coenagrion'.
+Prepare `taxa_list.txt` and `exclude_list.txt` with sample names. One taxa per line. Searches are case-sensitive and based on filenames, so if you're searching by family or genus, make sure to enclose taxa in underscores to make sure only the taxa you want are included. For example, 'Coenagrion' will match 'Coenagrion' and 'Coenagrionidae', while '\_Coenagrion\_' will only match the genus 'Coenagrion'. If you're searching by sample ID, put the underscore only at the end ('GEODE1234_').
 
 Remove `/20kb` if you want both 20kb and 500kb samples. Replace `probe` with `full` if you want full assemblies.
 
