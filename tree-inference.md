@@ -21,7 +21,7 @@ while read line; do
 done < exclude_list.txt
 ```
 
-# Download pipeline, install Nextflow, and load Apptainer
+# Download pipeline and load Nextflow/Apptainer
 
 You only need to do these steps once. This downloads the pipeline.
 
