@@ -23,19 +23,22 @@ done < exclude_list.txt
 
 # Download pipeline and load Nextflow/Apptainer
 
-You only need to do these steps once. This downloads the pipeline.
+:exclamation:***You only need to do the steps in this section once.***:exclamation:
+
+This downloads the pipeline.
 
 ```
 git clone https://github.com/paytoncarter14/nf-core-treeinference
 ```
 
-This loads Nextflow and Apptainer from the supercomputer module library and makes sure they are loaded every time you login.
+This loads Apptainer from the supercomputer module library and saves it so you don't need to load it every time.
 
 ```
 module load apptainer
-module load nextflow
 module save
 ```
+
+Download and install Nextflow by following the instructions at the top of this website (the box with three steps): <https://www.nextflow.io/>
 
 # Run pipeline
 
