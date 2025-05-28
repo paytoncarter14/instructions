@@ -23,7 +23,7 @@ done < exclude_list.txt
 
 # Download pipeline and load Nextflow/Apptainer
 
-:exclamation:***You only need to do the steps in this section once.***:exclamation:
+:exclamation:***You only need to do the steps in this section the first time you run the pipeline.***:exclamation:
 
 This downloads the pipeline.
 
