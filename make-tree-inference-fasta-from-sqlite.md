@@ -29,9 +29,7 @@ For example:
     ,,,105603_P004_WC11
     ,,,!105602_P002_WA05
 
-Will include all samples from the family Coenagrionidae, except for those from
-the species `Ischnura elegans`. It will also specifically include the sample 
-`105603_P004_WC11` and exclude the sample `105602_P002_WA05`.
+Will include all samples from the family Coenagrionidae, except for those from the species `Ischnura elegans`. It will also specifically include the sample `105603_P004_WC11` and exclude the sample `105602_P002_WA05`.
 
 The output directory can be directly given to nf-core-treeinference as the input directory. You will need to specify `input_format = 'locus'` in the parameters, since there will be one `.fasta` file per locus instead of the default one per sample. You can do this, for example, through the command line:
 
