@@ -26,7 +26,7 @@ For the `--region` parameter, you can specify either `probe` or `full` to use ei
 
 ## kmer coverage
 
-When these samples were assembled with SPAdes, we collected the kmer coverage statistic for each locus. This is the average number of times each kmer was found in this locus. Generally, a good locus should have at least 10x kmer coverage. The capture probes differ in their capture efficiency, so different loci in the same sample can have very different levels of kmer coverage. This script allows you to filter both individual loci and entire samples by the kmer coverage values. *By default, no filtering is applied*. You will probably want to set some values for the following parameters:
+When these samples were assembled with SPAdes, we collected the kmer coverage statistic for each locus. This is the average number of times each kmer was found in this locus. Generally, a good locus should have at least 10x kmer coverage. The capture probes differ in their capture efficiency, so different loci in the same sample can have very different levels of kmer coverage. This script allows you to filter both individual loci and entire samples by the kmer coverage values. **By default, no filtering is applied.** You will probably want to set some values for the following parameters:
 
 - `--min-avg-kmer-coverage`: The minimum average SPAdes kmer coverage for the entire sample. If a sample is lower than this, the entire sample is excluded.
 - `--min-locus-kmer-coverage`: The minimum SPAdes kmer coverage for each locus. If a locus is lower than this, the individual locus is excluded for this sample.
