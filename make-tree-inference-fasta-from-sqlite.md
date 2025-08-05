@@ -22,7 +22,7 @@ L995__tanypteryx_R
 L2001__tanypteryx_R
 ```
 
-For the --region parameter, you can specify either `probe` or `full` to use either just the probe region or the full scaffold (probe + flanks).
+For the `--region` parameter, you can specify either `probe` or `full` to use either just the probe region or the full scaffold (probe + flanks).
 
 ## kmer coverage
 
