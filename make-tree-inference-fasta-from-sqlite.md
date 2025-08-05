@@ -69,7 +69,7 @@ For example:
     ,,,105603_P004_WC11
     ,,,!105602_P002_%
 
-Will include all samples from the family `Coenagrionidae`, except for those from the species `Ischnura elegans`. It will also specifically include the sample `105603_P004_WC11` and exclude any samples starting with `105602_P002_`.
+will include all samples from the family `Coenagrionidae`, except for those from the species `Ischnura elegans`. It will also specifically include the sample `105603_P004_WC11` and exclude any samples starting with `105602_P002_`.
 
 ## nf-core-treeinference
 
