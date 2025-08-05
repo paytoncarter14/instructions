@@ -7,10 +7,12 @@ python make-tree-inference-fasta-from-sqlite.py \
 	--taxonomy taxonomy.csv \
 	--outdir mysamples \
 	--loci 20kb \
-	--region probe
+	--region probe \
+	--min-avg-kmer-coverage 10 \
+	--min-locus-kmer-coverage 20 \
+	--min-num-loci-20kb 50 \
+	--min-num-loci-500kb 50
 ```
-
-This will use the probe regions from the 20kb loci for all samples found in the `taxonomy.csv` file. The script will create one `.fasta` file per locus in the `mysamples` directory.
 
 ## loci and region
 
@@ -42,7 +44,7 @@ For example, the following parameters will:
 --min-avg-kmer-coverage 10 \
 --min-locus-kmer-coverage 20 \
 --min-num-loci-20kb 50 \
---min-num-loci-500kb
+--min-num-loci-500kb 50
 ```
 
 - First pull the 20kb loci for all selected samples.
